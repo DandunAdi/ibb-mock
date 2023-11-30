@@ -12,4 +12,9 @@ router.post("/getallcorporateaccount", (req, res) => {
   res.json(data.getAllCorporateAccount);
 });
 
+/* ----------------------------- BENEFICIARY GET ---------------------------- */
+router.post("/beneficiary/get", (req, res) => {
+  res.json(data.beneficiaryGet);
+});
+
 module.exports = router;

@@ -359,4 +359,86 @@ module.exports = {
       },
     ],
   },
+
+  /* ----------------------------- beneficiaryGet ----------------------------- */
+  beneficiaryGet: {
+    beneficiaryAccounts: [
+      {
+        accountAddress: "",
+        accountNumber: "3970300093970005",
+        accountOwnerName: "Yohanes Candra",
+        bankAllowed: [""],
+        bankCode: "",
+        bankName: "",
+        bankNameShort: "",
+        isDuplicated: true,
+        isRegistered: true,
+        isValid: true,
+        isWaitingToApprove: true,
+        proxyValue: "",
+        toBankName: "",
+        transactionCategory:
+          "TransactionCategory.BANCASSURANCE(channelType=vc, labelIn=BANCASSURANCE, labelEng=BANCASSURANCE)",
+        transactionType:
+          "TransactionCategory.BANCASSURANCE(channelType=vc, labelIn=BANCASSURANCE, labelEng=BANCASSURANCE)",
+      },
+      {
+        accountAddress: "",
+        accountNumber: "3900000094970010",
+        accountOwnerName: "Candra",
+        bankAllowed: [""],
+        bankCode: "",
+        bankName: "",
+        bankNameShort: "",
+        isDuplicated: true,
+        isRegistered: true,
+        isValid: true,
+        isWaitingToApprove: true,
+        proxyValue: "",
+        toBankName: "",
+        transactionCategory:
+          "TransactionCategory.BANCASSURANCE(channelType=vc, labelIn=BANCASSURANCE, labelEng=BANCASSURANCE)",
+        transactionType:
+          "TransactionCategory.BANCASSURANCE(channelType=vc, labelIn=BANCASSURANCE, labelEng=BANCASSURANCE)",
+      },
+      {
+        accountAddress: "",
+        accountNumber: "9970000093970006",
+        accountOwnerName: "Alfian Tinangon",
+        bankAllowed: [""],
+        bankCode: "",
+        bankName: "",
+        bankNameShort: "",
+        isDuplicated: true,
+        isRegistered: true,
+        isValid: true,
+        isWaitingToApprove: true,
+        proxyValue: "",
+        toBankName: "",
+        transactionCategory:
+          "TransactionCategory.BANCASSURANCE(channelType=vc, labelIn=BANCASSURANCE, labelEng=BANCASSURANCE)",
+        transactionType:
+          "TransactionCategory.BANCASSURANCE(channelType=vc, labelIn=BANCASSURANCE, labelEng=BANCASSURANCE)",
+      },
+      {
+        accountAddress: "",
+        accountNumber: "00120998",
+        accountOwnerName: "Tinangon",
+        bankAllowed: [""],
+        bankCode: "",
+        bankName: "",
+        bankNameShort: "",
+        isDuplicated: true,
+        isRegistered: true,
+        isValid: true,
+        isWaitingToApprove: true,
+        proxyValue: "",
+        toBankName: "",
+        transactionCategory:
+          "TransactionCategory.BANCASSURANCE(channelType=vc, labelIn=BANCASSURANCE, labelEng=BANCASSURANCE)",
+        transactionType:
+          "TransactionCategory.BANCASSURANCE(channelType=vc, labelIn=BANCASSURANCE, labelEng=BANCASSURANCE)",
+      },
+    ],
+  },
 };
