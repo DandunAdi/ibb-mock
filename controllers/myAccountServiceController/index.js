@@ -7,4 +7,9 @@ router.post("/getdashboardwithchart", (req, res) => {
   res.json(data.getDashboardWithChart);
 });
 
+/* ------------------------ GET ALL CORPORATE ACCOUNT ----------------------- */
+router.post("/getallcorporateaccount", (req, res) => {
+  res.json(data.getAllCorporateAccount);
+});
+
 module.exports = router;
