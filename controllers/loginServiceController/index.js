@@ -8,9 +8,4 @@ router.post("/corporatelogin", (req, res) => {
   res.json(data.corporateLogin);
 });
 
-/* ---------------------------- CORPORATE LOGOUT ---------------------------- */
-router.post("/corporate/logout", (req, res) => {
-  res.json(data.corporateLogout);
-});
-
 module.exports = router;

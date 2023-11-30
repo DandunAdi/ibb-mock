@@ -2,9 +2,10 @@ const express = require("express");
 const app = express();
 const port = process.env.PORT || 3000;
 var cors = require("cors");
-const loginController = require("./controllers/loginController");
-const myAccountController = require("./controllers/myAccountController");
-const transferController = require("./controllers/transferController");
+const loginServiceController = require("./controllers/loginServiceController");
+const userServiceController = require("./controllers/userServiceController");
+const myAccountServiceController = require("./controllers/myAccountServiceController");
+const transferServiceController = require("./controllers/transferServiceController");
 
 app.use(cors());
 
@@ -13,9 +14,10 @@ app.use((req, res, next) => {
   next();
 });
 
-app.use("/api/loginservice", loginController);
-app.use("/api/myaccountservice", myAccountController);
-app.use("/api/transferservice", transferController);
+app.use("/api/loginservice", loginServiceController);
+app.use("/api/userservice", userServiceController);
+app.use("/api/myaccountservice", myAccountServiceController);
+app.use("/api/transferservice", transferServiceController);
 
 app.listen(port, () => {
   console.log(`Server is running at PORT:${port}`);
