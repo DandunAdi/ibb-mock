@@ -17,4 +17,9 @@ router.post("/beneficiary/get", (req, res) => {
   res.json(data.beneficiaryGet);
 });
 
+/* ---------------------------- GET CORPORATE SOF --------------------------- */
+router.post("/getcorporatesof", (req, res) => {
+  res.json(data.getCorporateSof);
+});
+
 module.exports = router;
