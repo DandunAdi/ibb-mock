@@ -1025,4 +1025,73 @@ module.exports = {
       },
     ],
   },
+
+  /* ---------------------------- cashflowByMonthIn --------------------------- */
+  cashflowByMonthIn: {
+    transactionDto: [
+      {
+        transactionCategory: "Transfer Masuk",
+        amount: 23324910.0,
+        percentage: 35.0,
+      },
+      {
+        transactionCategory: "Pendapatan Bunga",
+        amount: 9996390.0,
+        percentage: 15.0,
+      },
+      {
+        transactionCategory: "Setor Tunai",
+        amount: 13328520.0,
+        percentage: 20.0,
+      },
+      {
+        transactionCategory: "Lainnya",
+        amount: 19992780.0,
+        percentage: 30.0,
+      },
+    ],
+    totalAmount: 6.66426e7,
+  },
+
+  /* --------------------------- cashflowByMonthOut --------------------------- */
+  cashflowByMonthOut: {
+    transactionDto: [
+      {
+        transactionCategory: "Transfer Keluar",
+        amount: 15699181.0,
+        percentage: 25.0,
+      },
+      {
+        transactionCategory: "Pembayaran",
+        amount: 6279672.4,
+        percentage: 10.0,
+      },
+      {
+        transactionCategory: "Pembelian",
+        amount: 9419508.6,
+        percentage: 15.0,
+      },
+      {
+        transactionCategory: "Administrasi Bank",
+        amount: 12559344.8,
+        percentage: 20.0,
+      },
+      {
+        transactionCategory: "Pembayaran Kredit",
+        amount: 9419508.6,
+        percentage: 15.0,
+      },
+      {
+        transactionCategory: "Tarik Tunai",
+        amount: 6279672.4,
+        percentage: 10.0,
+      },
+      {
+        transactionCategory: "Lainnya",
+        amount: 3139836.2,
+        percentage: 5.0,
+      },
+    ],
+    totalAmount: 62796724,
+  },
 };

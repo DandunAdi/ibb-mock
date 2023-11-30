@@ -8,6 +8,7 @@ const myAccountServiceController = require("./controllers/myAccountServiceContro
 const transferServiceController = require("./controllers/transferServiceController");
 
 app.use(cors());
+app.use(express.json());
 
 app.use((req, res, next) => {
   console.log("REQUEST incoming", req.url);

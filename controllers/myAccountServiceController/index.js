@@ -22,4 +22,13 @@ router.post("/getcorporatesof", (req, res) => {
   res.json(data.getCorporateSof);
 });
 
+/* ---------------------------- CASHFLOW BY MONTH --------------------------- */
+router.post("/cashflowbymonth", (req, res) => {
+  const cashflowType = req.body.sign; // "C" for in && "D" for out
+  const resData =
+    cashflowType === "C" ? data.cashflowByMonthIn : data.cashflowByMonthOut;
+
+  res.json(resData);
+});
+
 module.exports = router;
