@@ -7,6 +7,11 @@ const transferController = require("./controllers/transferController");
 
 app.use(cors());
 
+app.use((req, res, next) => {
+  console.log("REQUEST incoming", req.url);
+  next();
+});
+
 app.use("/api/loginservice", loginController);
 app.use("/api/transferservice", transferController);
 
