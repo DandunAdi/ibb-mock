@@ -2,14 +2,14 @@ module.exports = {
   /* ----------------------------- inquiryTransfer ---------------------------- */
   inquiryTransfer: {
     transactionId: "TRX000000062709",
-    fromAccountNumber: "1401 8800 0886 7",
-    toAccountNumber: "2190 1580 0000 26",
+    fromAccountNumber: "1401880008867",
+    toAccountNumber: "3970300093970005",
     amount: 100000,
     adminFee: 0,
     transactionFee: 3900,
     totalFee: 3900,
     totalAmount: 103900,
-    message: "test",
+    message: "",
     transactionCategory: "TRANSFER_OA",
     statusCode: "00",
     destCustomerName: "NASABAH AA07278",
