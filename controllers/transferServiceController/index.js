@@ -1,8 +1,10 @@
 const express = require("express");
+const data = require("./data");
 const router = express.Router();
 
-router.get("/", (req, res) => {
-  res.send("Welcome to the transfer!");
+/* ---------------------------- INQUIRY TRANSFER ---------------------------- */
+router.post("/inquirytransfer", (req, res) => {
+  res.json(data.inquiryTransfer);
 });
 
 module.exports = router;
