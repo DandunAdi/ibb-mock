@@ -17,4 +17,9 @@ router.post("/savelistpayroll", (req, res) => {
   res.json(data.saveListPayroll);
 });
 
+/* -------------------------- GET ALL MASS TRANSFER ------------------------- */
+router.post("/getallmasstransfer", (req, res) => {
+  res.json(data.getAllMassTransfer);
+});
+
 module.exports = router;
