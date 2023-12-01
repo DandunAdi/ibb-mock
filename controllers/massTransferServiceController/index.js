@@ -7,4 +7,8 @@ router.post("/deletingmasstransfer", (req, res) => {
   res.json(data.deletingMassTransfer);
 });
 
+router.post("/inquiry/account", (req, res) => {
+  res.json(data.inquiryAccount);
+});
+
 module.exports = router;
