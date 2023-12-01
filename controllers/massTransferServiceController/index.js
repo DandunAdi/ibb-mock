@@ -22,4 +22,9 @@ router.post("/getallmasstransfer", (req, res) => {
   res.json(data.getAllMassTransfer);
 });
 
+/* -------------------------- EXECUTE MASS TRANSFER ------------------------- */
+router.post("/executemasstransfer", (req, res) => {
+  res.json(data.executeMassTransfer);
+});
+
 module.exports = router;
