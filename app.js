@@ -6,6 +6,7 @@ const loginServiceController = require("./controllers/loginServiceController");
 const userServiceController = require("./controllers/userServiceController");
 const myAccountServiceController = require("./controllers/myAccountServiceController");
 const transferServiceController = require("./controllers/transferServiceController");
+const softTokenServiceController = require("./controllers/softTokenServiceController");
 
 app.use(cors());
 app.use(express.json());
@@ -19,6 +20,7 @@ app.use("/api/loginservice", loginServiceController);
 app.use("/api/userservice", userServiceController);
 app.use("/api/myaccountservice", myAccountServiceController);
 app.use("/api/transferservice", transferServiceController);
+app.use("/api/softtokenservice", softTokenServiceController);
 
 app.listen(port, () => {
   console.log(`Server is running at PORT:${port}`);
