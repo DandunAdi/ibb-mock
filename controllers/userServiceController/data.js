@@ -9,4 +9,10 @@ module.exports = {
     dueDateUnseenCount: 0,
     overDueUnseenCount: 0,
   },
+
+  /* -------------------------- uploadDocExcelPayroll ------------------------- */
+  uploadDocExcelPayroll: {
+    fileName: "payroll-bank-jasa-jakarta.xlsx",
+    message: "success",
+  },
 };
