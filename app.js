@@ -8,7 +8,7 @@ const myAccountServiceController = require("./controllers/myAccountServiceContro
 const transferServiceController = require("./controllers/transferServiceController");
 const softTokenServiceController = require("./controllers/softTokenServiceController");
 
-app.use(cors());
+app.use(cors({ exposedHeaders: ["access_token", "content-type", "expire"] }));
 app.use(express.json());
 
 app.use((req, res, next) => {
