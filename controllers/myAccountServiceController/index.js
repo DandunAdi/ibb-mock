@@ -31,4 +31,9 @@ router.post("/cashflowbymonth", (req, res) => {
   res.json(resData);
 });
 
+/* --------------------------- BENEFICIARY INQUIRY -------------------------- */
+router.post("/beneficiary/inquiry", (req, res) => {
+  res.json(data.beneficiaryInquiry);
+});
+
 module.exports = router;

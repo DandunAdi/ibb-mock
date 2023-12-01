@@ -1094,4 +1094,21 @@ module.exports = {
     ],
     totalAmount: 62796724,
   },
+
+  /* --------------------------- beneficiaryInquiry --------------------------- */
+  beneficiaryInquiry: {
+    address: "",
+    adminFee: 10000,
+    amount: 10000000,
+    bankCode: "472",
+    bankName: "Bank Jasa Jakarta",
+    bankShortName: "BJJ",
+    beneficiaryAccountNumber: "12345678900",
+    beneficiaryName: "Nasabah A",
+    email: "nasabah_a@gmail.com",
+    message: "news",
+    proxyValue: "",
+    totalAmount: 10010000,
+    transactionCategory: "TRANSFER_ON_US",
+  },
 };
